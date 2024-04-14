@@ -17,7 +17,7 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 @Entity
-@Table(name = "employees", schema = "hr")
+@Table(name = "employees")
 @Data
 @Cacheable
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
